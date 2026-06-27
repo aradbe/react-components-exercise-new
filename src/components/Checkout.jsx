@@ -1,4 +1,12 @@
-import Item from "./Item";
+import Item from "./Item"
 
-const Checkout = () => {}
+const Checkout = () => {
+  return (
+    <div>
+      Checkout
+      <Item />
+    </div>
+  )
+}
+
 export default Checkout
